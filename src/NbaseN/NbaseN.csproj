@@ -8,7 +8,7 @@
         <Authors>zetroot</Authors>
         <PackageProjectUrl>https://github.com/zetroot/NbaseN</PackageProjectUrl>
         <RepositoryUrl>https://github.com/zetroot/NbaseN</RepositoryUrl>
-        <Version>1.0.0</Version>
+        <Version>1.0.1</Version>
     </PropertyGroup>
 
 </Project>
