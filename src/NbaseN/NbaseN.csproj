@@ -7,7 +7,7 @@
         <Authors>zetroot</Authors>
         <PackageProjectUrl>https://github.com/zetroot/NbaseN</PackageProjectUrl>
         <RepositoryUrl>https://github.com/zetroot/NbaseN</RepositoryUrl>
-        <Version>1.0.2</Version>
+        <Version>1.1.0</Version>
         <TargetFrameworks>net5.0;netstandard2.1</TargetFrameworks>
     </PropertyGroup>
 
