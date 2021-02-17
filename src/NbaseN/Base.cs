@@ -1,20 +1,21 @@
 ﻿using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 
 namespace NbaseN
 {
     /// <summary>
-    /// Интерфейс основания системы счисления
+    /// Base abstract class
     /// </summary>
-    public interface IBase
+    public abstract class Base
     {
         /// <summary>
-        /// Символы алфавита
+        /// Alphabet chars
         /// </summary>
-        IReadOnlyList<char> BaseChars { get; }
-        
+        public abstract IReadOnlyList<char> BaseChars { get; }
+
         /// <summary>
         /// Основание системы счисления
         /// </summary>
-        int TargetBase { get; }
+        public virtual int TargetBase => BaseChars.Count;
     }
 }

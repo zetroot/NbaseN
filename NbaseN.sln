@@ -8,6 +8,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{46CFE7BC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NbaseN.Tests", "tests\NbaseN.Tests\NbaseN.Tests.csproj", "{75FF126E-8B04-4C3D-8277-3F26493BE7C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NbaseN.Tests.Benchmarking", "tests\NbaseN.Tests.Benchmarking\NbaseN.Tests.Benchmarking.csproj", "{2E9BDCAD-D337-4FEE-9947-9765A126F690}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,9 +24,14 @@ Global
 		{75FF126E-8B04-4C3D-8277-3F26493BE7C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75FF126E-8B04-4C3D-8277-3F26493BE7C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75FF126E-8B04-4C3D-8277-3F26493BE7C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E9BDCAD-D337-4FEE-9947-9765A126F690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E9BDCAD-D337-4FEE-9947-9765A126F690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E9BDCAD-D337-4FEE-9947-9765A126F690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E9BDCAD-D337-4FEE-9947-9765A126F690}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FC292500-A319-407E-B446-CD887CAFD521} = {6B08455F-CB14-4786-9C3A-D7E095A92258}
 		{75FF126E-8B04-4C3D-8277-3F26493BE7C7} = {46CFE7BC-E397-42E3-9F19-A8D1771E3F58}
+		{2E9BDCAD-D337-4FEE-9947-9765A126F690} = {46CFE7BC-E397-42E3-9F19-A8D1771E3F58}
 	EndGlobalSection
 EndGlobal
