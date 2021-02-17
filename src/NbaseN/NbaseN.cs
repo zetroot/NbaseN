@@ -6,11 +6,11 @@ namespace NbaseN
     /// NET base-n converter
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    public static class NbaseN<T> where T : IBase, new()
+    public static class NbaseN<T> where T : Base, new()
     {
         private const int MAX_BUFFER_SIZE = 32; 
         private const int MAX_LONG_BUFFER_SIZE = 64; 
-        private static readonly IBase baseN;
+        private static readonly Base baseN;
 
         static NbaseN()
         {
@@ -18,7 +18,7 @@ namespace NbaseN
         }
         
         /// <summary>
-        /// Convert positive int32 to string in <typeparamref name="T"/> base
+        /// Convert positive <see cref="int"/> to string in <typeparamref name="T"/> base
         /// </summary>
         /// <param name="value">Source int32 value</param>
         /// <returns>String representation</returns>
