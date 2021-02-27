@@ -17,5 +17,10 @@ namespace NbaseN
         /// Основание системы счисления
         /// </summary>
         public virtual int TargetBase => BaseChars.Count;
+
+        /// <summary>
+        /// Negative sign, applied at the beginning of result string
+        /// </summary>
+        public virtual char NegativeSign => '-';
     }
 }

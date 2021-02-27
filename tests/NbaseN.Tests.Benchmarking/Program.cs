@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using BenchmarkDotNet.Running;
 
 namespace NbaseN.Tests.Benchmarking
@@ -8,7 +9,7 @@ namespace NbaseN.Tests.Benchmarking
         static void Main(string[] args)
         {
             _ = BenchmarkRunner.Run<Int32ToStringBenchmark>();
-            _ = BenchmarkRunner.Run<Int32ArrToStringsBenchmark>();
+            Console.ReadKey();
         }
     }
 }
