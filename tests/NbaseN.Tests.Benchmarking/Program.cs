@@ -8,8 +8,7 @@ namespace NbaseN.Tests.Benchmarking
     {
         static void Main(string[] args)
         {
-            //_ = BenchmarkRunner.Run<Int32ToStringBenchmark>();
-            _ = BenchmarkRunner.Run<Int32ArrToStringsBenchmark>();
+            _ = BenchmarkRunner.Run<Int32ToStringBenchmark>();
             Console.ReadKey();
         }
     }
